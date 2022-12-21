@@ -1,0 +1,21 @@
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.Krakow {
+
+    margin: 20px;
+    background-color: gray;
+    border: 2px black solid;
+
+}
+
+img {
+    object-fit: cover;
+    width: 400px;
+}

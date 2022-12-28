@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 80px;
+    background-color: white;
+}
+
+header .path {
+    height: 34px;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container .nav .type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav li {
+    display: inline-block;
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 40px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.actions {
+    display: flex;
+    gap: 24px;
+
+}
+
+#log-in-btn {
+    background-color: white;
+    border: 1px solid #545BE8;
+    border-radius: 10px;
+    color: #545BE8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+#register-btn {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    background: #545BE8;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #545BE8;
+}
+
+.actions button {
+    height: 48px;
+    width: 170px;
+}
+
+.logo {
+
+    max-width: 160px;
+    max-height: 34px;
+    margin-right: 113.5px;
+}
+
+header .container .logo {
+    object-fit: contain;
+}
+
+.word {
+    color: #545BE8;
+}
+
+section {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    background-position: 100%;
+    background-size: 100%;
+    min-height: 705px;
+
+}
+
+main {
+    background-color: #F5F5F5;
+}
+
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 705px;
+}
+
+h4 {
+    color: gray;
+}
+
+section .photo .backround {
+    object-fit: contain;
+    padding-left: 24px;
+
+}
+
+.section-info h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: inter;
+}
+
+.section-info h1 {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+
+}
+
+.section-info h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.info button {
+    width: 170px;
+    height: 48px;
+
+}
+
+#Register2-btn {
+    background: #545BE8;
+    border-radius: 10px;
+    border: 1px solid #545BE8;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+#play-btn  {
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 42.25px;
+    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(font/Inter-V.ttf);
+}

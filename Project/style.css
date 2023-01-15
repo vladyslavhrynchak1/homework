@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: white;
+  margin-right: 41px;
+}
+
+.nav ul li {
+  margin-right: 41px;
+}
+
+.page-1 {
+  background-color: #111111;
+}
+.page-2 {
+    background-color: #1E1E1E;
+  }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 53px 90px 70px 90px;
+}
+.contact-btn {
+  width: 172px;
+  height: 47px;
+  background-color: #111111;
+  color: white;
+  border: 1px solid white;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 11px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img1 {
+  background-image: url("./img/Message\ 35.png");
+  width: 18px;
+  height: 16px;
+  display: inline-block;
+}
+
+.img2 {
+  background-image: url("./img/Group\ 10591.png");
+  width: 467.71px;
+  height: 544.71px;
+}
+.text1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 147.52%;
+  color: white;
+}
+.text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.52%;
+  color: white;
+  opacity: 0.3;
+}
+
+.email-input {
+  background-color: #292929;
+  border-radius: 43px;
+  padding: 6px;
+  width: fit-content;
+}
+
+input {
+  background: url("./img/Message\ 35.png") no-repeat scroll 13px 0px;
+  padding-left: 40px;
+  height: 24px;
+  border: none;
+  background-repeat: no-repeat;
+}
+
+.lets-talk-btn {
+  background: #e3b748;
+  border: none;
+  border-radius: 43px;
+  width: 120px;
+  height: 50px;
+}

@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 .nav ul {
   display: flex;
   flex-direction: row;
@@ -8,34 +9,42 @@ body {
   list-style-type: none;
   color: white;
   margin-right: 41px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162.52%;
 }
 
 .nav ul li {
   margin-right: 41px;
 }
+.head li .head-url {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .page-1 {
   background-color: #111111;
 }
-.page-2 {
-    background-color: #1E1E1E;
-  }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .content {
-  padding: 53px 90px 70px 90px;
+  padding: 53px 152px 70px 156px;
 }
 .contact-btn {
-  width: 172px;
-  height: 47px;
+  min-width: 170px;
+  min-height: 45px;
   background-color: #111111;
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .text {
@@ -55,13 +64,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.img1 {
-  background-image: url("./img/Message\ 35.png");
-  width: 18px;
-  height: 16px;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 
 .img2 {
@@ -108,4 +111,240 @@ input {
   border-radius: 43px;
   width: 120px;
   height: 50px;
+}
+.page-2 {
+  background-color: #1e1e1e;
+}
+.text3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 161.52%;
+  color: white;
+}
+
+.text4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 162.52%;
+  color: white;
+}
+
+.text5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.52%;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.line {
+  border-left: 1px solid #6a6a6a;
+}
+.text6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 143.02%;
+  color: white;
+  text-align: center;
+  margin: 40px;
+}
+
+.page-2 .flex-row .baner {
+  width: 359px;
+  height: 377px;
+  margin-right: 31px;
+  background: #1d1d1d;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}
+
+.page-2 .flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.baner-img {
+  width: 101px;
+  height: 101px;
+  padding-left: 24px;
+  padding-top: 28px;
+}
+.page-2 .flex-row .baner:hover {
+  background: #2e2e2e;
+}
+
+.baner-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: white;
+  padding-left: 23px;
+}
+.baner-text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 162.52%;
+  padding-left: 23px;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.baner-btn {
+  width: 121px;
+  height: 43px;
+  background: #e3b748;
+  border-radius: 23.5px;
+  color: #111111;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 162.52%;
+  border: 0px solid;
+  margin: 20px;
+}
+
+.page-3 {
+  background-color: #1e1e1e;
+}
+
+.six-photo {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.two-photo {
+  display: flex;
+  width: 100%;
+  min-height: 340px;
+  gap: 20px;
+}
+
+.text-on-photo {
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fffbf2;
+  text-align: center;
+}
+
+.photo1 {
+  position: relative;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+}
+
+.left-photo1 {
+  width: 70%;
+  background-image: url(img/Photo1-1.png);
+}
+
+.right-photo1 {
+  width: 30%;
+  background-image: url(img/Photo1-2.png);
+}
+
+.left-photo2 {
+  width: 70%;
+  background-image: url(img/Photo2-1.png);
+}
+.right-photo2 {
+  width: 30%;
+  background-image: url(img/Photo2-2.png);
+}
+
+.photo-reversed {
+  flex-direction: row-reverse;
+}
+.left-photo3 {
+  width: 70%;
+  background-image: url(img/Photo3-1.png);
+}
+
+.right-photo3 {
+  width: 30%;
+  background-image: url(img/Photo3-2.png);
+}
+
+.page-4 {
+  background-color: #1e1e1e;
+}
+
+.content .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  background-color: #1e1e1e;
+  border: 0px solid;
+}
+.next {
+  background-color: #1e1e1e;
+  border: 0px solid;
+}
+
+.baner-medium-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  padding-left: 26px;
+}
+
+.page-4 .flex-row .baner {
+  width: 359px;
+  min-height: 377px;
+  margin-right: 31px;
+  background: #1d1d1d;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  position: relative;
+}
+
+.page-4 .flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.vector {
+  position: absolute;
+  top: 43px;
+  right: 41px;
+  width: 55px;
+  height: 38px;
+}
+.content .flex-row .baner:hover {
+  background-color: #2e2e2e;
 }

@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .logo {
+    padding-top: 11px;
+    margin-left: 3%;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: white;
+    margin-right: 41px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.52%;
+  }
+
+  .nav ul li {
+    margin-right: 41px;
+  }
+  .head li .head-url {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .contact-btn {
+    min-width: 170px;
+    min-height: 45px;
+    background-color: #111111;
+    color: white;
+    border: 2px solid white;
+    margin-right: 30px;
+  }
+  .text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+
+.page-1 {
+  background-color: #111111;
+  background-image: url("./img/Group\ 10591.png");
+  background-repeat: no-repeat;
+  background-position: center right 10%;
+
+  .content .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 147.52%;
+    color: white;
+  }
+  .text2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.52%;
+    color: white;
+    opacity: 0.3;
+  }
+
+  .email-input {
+    background-color: #292929;
+    border-radius: 43px;
+    padding: 6px;
+    width: fit-content;
+  }
+
+  input {
+    background: url("./img/Message\ 35.png") no-repeat scroll 13px 0px;
+    padding-left: 40px;
+    height: 24px;
+    border: none;
+    background-repeat: no-repeat;
+  }
+
+  .lets-talk-btn {
+    background: #e3b748;
+    border: none;
+    border-radius: 43px;
+    width: 120px;
+    height: 50px;
+  }
+}
+
+.content {
+  padding: 53px 152px 70px 156px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page-2 {
+  background-color: #1e1e1e;
+  .text6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 143.02%;
+    color: white;
+    text-align: center;
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+  }
+  .text3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 161.52%;
+    color: white;
+  }
+
+  .text4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 162.52%;
+    color: white;
+  }
+
+  .text5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.52%;
+    color: #ffffff;
+    opacity: 0.3;
+  }
+  .line {
+    border-left: 1px solid #6a6a6a;
+    min-height: 206px;
+  }
+  .content .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    .baner:hover {
+      background: #2e2e2e;
+    }
+    .baner {
+      width: 359px;
+      min-height: 377px;
+      margin-right: 31px;
+      background: #1d1d1d;
+      border: 1.4px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      .baner-img {
+        width: 101px;
+        height: 101px;
+        padding-left: 24px;
+        padding-top: 28px;
+      }
+      .baner-btn {
+        width: 121px;
+        height: 43px;
+        background: #e3b748;
+        border-radius: 23.5px;
+        color: #111111;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 162.52%;
+        border: 0px solid;
+        margin: 20px;
+      }
+    }
+  }
+  .baner-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    padding-left: 23px;
+  }
+  .baner-text2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    padding-left: 23px;
+    color: #ffffff;
+    opacity: 0.3;
+  }
+}
+
+.page-3 {
+  background-color: #1e1e1e;
+  .text6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 143.02%;
+    color: white;
+    text-align: center;
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .six-photo {
+    margin: 0 auto;
+  }
+  .photo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .two-photo {
+    display: flex;
+    width: 100%;
+    min-height: 340px;
+    gap: 20px;
+  }
+
+  .text-on-photo {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fffbf2;
+    text-align: center;
+  }
+
+  .photo1 {
+    position: relative;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+  }
+
+  .left-photo1 {
+    width: 70%;
+    background-image: url(img/Photo1-1.png);
+  }
+
+  .right-photo1 {
+    width: 30%;
+    background-image: url(img/Photo1-2.png);
+  }
+
+  .left-photo2 {
+    width: 70%;
+    background-image: url(img/Photo2-1.png);
+  }
+  .right-photo2 {
+    width: 30%;
+    background-image: url(img/Photo2-2.png);
+  }
+
+  .photo-reversed {
+    flex-direction: row-reverse;
+  }
+  .left-photo3 {
+    width: 70%;
+    background-image: url(img/Photo3-1.png);
+  }
+
+  .right-photo3 {
+    width: 30%;
+    background-image: url(img/Photo3-2.png);
+  }
+  @media only screen and (max-width: 1140px) {
+    .two-photo {
+      flex-wrap: wrap;
+    }
+    .left-photo1 {
+      width: 100%;
+    }
+
+    .right-photo1 {
+      width: 100%;
+    }
+
+    .left-photo2 {
+      width: 100%;
+    }
+    .right-photo2 {
+      width: 100%;
+    }
+
+    .left-photo3 {
+      width: 100%;
+    }
+
+    .right-photo3 {
+      width: 100%;
+    }
+  }
+}
+
+.page-4 {
+  background-color: #1e1e1e;
+
+  .text6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 143.02%;
+    color: white;
+    text-align: center;
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+  }
+  .content .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 31px;
+    .baner:hover {
+      background-color: #2e2e2e;
+    }
+
+    .baner {
+      min-width: 270px;
+      min-height: 377px;
+      background: #1d1d1d;
+      border: 1.4px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      position: relative;
+    }
+  }
+
+  .back {
+    background-color: #1e1e1e;
+    border: 0px solid;
+  }
+  .next {
+    background-color: #1e1e1e;
+    border: 0px solid;
+  }
+
+  .baner-medium-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    padding-left: 26px;
+  }
+  .vector {
+    position: absolute;
+    top: 43px;
+    right: 41px;
+    width: 55px;
+    height: 38px;
+  }
+  .baner-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    padding-left: 23px;
+  }
+  .baner-text2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    padding-left: 23px;
+    color: #ffffff;
+    opacity: 0.3;
+  }
+}
+
+.page-5 {
+  background-color: #1e1e1e;
+}

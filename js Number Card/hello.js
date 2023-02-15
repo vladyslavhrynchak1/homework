@@ -31,7 +31,7 @@ if (yourCountry == "UK") {
         alert("The field is empty");
       } else {
         alert(
-            `Good afternoon ${yourName}, your age is - ${yourAge}. Funds will be sent to your card ${yourNumberCard}. By place of residence ${yourCountry}.`
+          `Good afternoon ${yourName}, your age is - ${yourAge}. Funds will be sent to your card ${yourNumberCard}. By place of residence ${yourCountry}.`
         );
       }
     } else {
